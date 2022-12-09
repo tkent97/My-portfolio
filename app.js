@@ -4,17 +4,17 @@ const sectBtn = document.querySelectorAll('.control');
 const allSections = document.querySelector('.main-content');
 
 function PageTransitions() {
-    for (let i = 0; i < sectBtns.length; i++) {
-        sectBtns.forEach((btn) => {
-            btn.addEventListener('click', (e) => {
-                document.querySelector('.active-btn').classList.remove('active-btn');
-                e.target.classList.add('active-btn');
-                document.querySelector(".active").classList.remove("active");
-                e.target.classList.add('active')
+    // for (let i = 0; i < sectBtns.length; i++) {
+    sectBtns.forEach((btn) => {
+        btn.addEventListener('click', (e) => {
+            document.querySelector('.active-btn').classList.remove('active-btn');
+            e.target.classList.add('active-btn');
+            document.querySelector(".active").classList.remove("active");
+            e.target.classList.add('active')
 
-            })
         })
-    }
+    })
+    // }
     allSections.addEventListener('click', (e) => {
         const id = e.target.dataset.id;
         if (id) {

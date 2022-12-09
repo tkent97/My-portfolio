@@ -424,6 +424,50 @@ section {
     transform: scale(1);
 }
 
+.contact-container-con {
+    display: flex;
+    padding-top: 3.5rem;
+
+    .left-container {
+        flex: 2;
+    }
+
+    .right-container {
+        flex: 3;
+        margin-left: 3rem;
+
+        .input-control {
+            margin: 3rem 0;
+
+        }
+
+        input,
+        textarea {
+            border-radius: 30px;
+            font-weight: inherit;
+            font-size: inherit;
+            font-family: inherit;
+            padding: .8rem 1.1rem;
+            outline: none;
+            border: none;
+            background-color: #353c4444;
+            width: 100%;
+            color: rgb(255, 255, 255);
+            resize: none;
+            border-style: solid;
+
+        }
+
+        .i-c-2 {
+            display: flex;
+
+            :last-child {
+                margin-left: 1.5rem;
+            }
+        }
+    }
+}
+
 .btn-con {
     display: flex;
     align-self: flex-start;

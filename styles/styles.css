@@ -376,6 +376,42 @@ section {
   transform: scale(1);
 }
 
+.contact-container-con {
+  display: flex;
+  padding-top: 3.5rem;
+}
+.contact-container-con .left-container {
+  flex: 2;
+}
+.contact-container-con .right-container {
+  flex: 3;
+  margin-left: 3rem;
+}
+.contact-container-con .right-container .input-control {
+  margin: 3rem 0;
+}
+.contact-container-con .right-container input,
+.contact-container-con .right-container textarea {
+  border-radius: 30px;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+  background-color: rgba(53, 60, 68, 0.2666666667);
+  width: 100%;
+  color: rgb(255, 255, 255);
+  resize: none;
+  border-style: solid;
+}
+.contact-container-con .right-container .i-c-2 {
+  display: flex;
+}
+.contact-container-con .right-container .i-c-2 :last-child {
+  margin-left: 1.5rem;
+}
+
 .btn-con {
   display: flex;
   align-self: flex-start;
